@@ -1,5 +1,4 @@
-import { getTranslations } from "@/i18n/server";
-import { YnsLink } from "@/ui/yns-link";
+
 
 export default async function NotFound() {
 	const t = await getTranslations("Global.notFound");
